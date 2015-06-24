@@ -1,4 +1,4 @@
-# angular-modal-service
+# ng-modal-service
 Very easy to use [UI Bootstrap](https://github.com/angular-ui/bootstrap)'s modal service.
 
 ***
