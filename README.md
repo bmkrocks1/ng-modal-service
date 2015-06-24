@@ -7,7 +7,7 @@ Very easy to use [UI Bootstrap](https://github.com/angular-ui/bootstrap)'s modal
 
 ## Installation
 
-`bower install angular-modal-service`
+`bower install ng-modal-service`
 
 ## How To Use
 
