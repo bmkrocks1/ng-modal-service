@@ -1,0 +1,40 @@
+{
+  "name": "ng-modal-service",
+  "description": "UI Bootstrap's modal service",
+  "version": "0.1.0",
+  "main": [
+    "./dist/ng-modal-service.js"
+  ],
+  "author": {
+    "name": "Billie Ko",
+    "email": "billie.mikhael@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmkrocks1/ng-modal-service"
+  },
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test/",
+    "Gruntfile.js",
+    "package.json",
+    ".gitignore"
+  ],
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "modal",
+    "service"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-bootstrap": "~0.13.0"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "chai": "~3.0.0",
+    "angular-mocks": "~1.4.0"
+  }
+}
