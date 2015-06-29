@@ -35,6 +35,8 @@
   "devDependencies": {
     "bootstrap": "~3.3.5",
     "chai": "~3.0.0",
-    "angular-mocks": "~1.4.0"
+    "angular-mocks": "~1.4.0",
+    "chai-as-promised": "~5.1.0",
+    "chai-jquery": "~2.0.0"
   }
 }

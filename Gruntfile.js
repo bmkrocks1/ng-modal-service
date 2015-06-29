@@ -9,6 +9,21 @@ module.exports = function(grunt) {
             gruntfile: { src: 'Gruntfile.js' },
             src: { src: 'src/**/*.js' }
         },
+        bower_concat: {
+            js: {
+                dest: 'test/bower.js',
+                dependencies: {
+                    angular: 'jquery',
+                    'chai-as-promised': 'chai',
+                    'chai-jquery': 'chai'
+                },
+                mainFiles: {
+                    'chai-as-promised': 'lib/chai-as-promised.js',
+                    'chai-jquery': 'chai-jquery.js'
+                },
+                includeDev: true
+            }
+        },
         karma: {
             options: {
                 configFile: './test/karma.conf.js'
@@ -39,7 +54,7 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', []);
-    grunt.registerTask('test', ['karma:ng-modal-service']);
+    grunt.registerTask('test', ['bower_concat', 'karma:ng-modal-service']);
     grunt.registerTask('lint', ['jshint']);
     grunt.registerTask('deploy', ['concat:deploy', 'uglify:deploy']);
 };
