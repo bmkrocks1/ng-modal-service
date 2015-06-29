@@ -5,7 +5,7 @@
 describe('Testing: modal-service', function() {
     'use strict';
 
-    var $controller, $compile, $document, $rootScope;
+    var $compile, $document, $rootScope;
     var modalServiceProvider, modalService;
 
     beforeEach(module('modal-service'));
@@ -37,8 +37,7 @@ describe('Testing: modal-service', function() {
         });
     });
 
-    beforeEach(inject(function(_$controller_, _$compile_, _$document_, _$rootScope_, _modalService_) {
-        $controller = _$controller_;
+    beforeEach(inject(function(_$compile_, _$document_, _$rootScope_, _modalService_) {
         $compile = _$compile_;
         $document = _$document_;
         $rootScope = _$rootScope_;
