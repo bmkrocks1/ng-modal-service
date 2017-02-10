@@ -1,7 +1,3 @@
-/**
- * Copyright (c) 2015 Billie Ko <billie.mikhael@gmail.com>
- * Licensed under the MIT license.
- */
 angular.module('modal-service', ['ui.bootstrap'])
 
     .provider('modalService', function() {

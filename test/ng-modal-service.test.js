@@ -1,6 +1,5 @@
 /**
- * Copyright (c) 2015 Billie Ko <billie.mikhael@gmail.com>
- * Licensed under the MIT license.
+ * Author: Billie Ko <bmkrocks@gmail.com>
  */
 describe('Testing: modal-service', function() {
     'use strict';

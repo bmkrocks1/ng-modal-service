@@ -42,8 +42,7 @@ module.exports = function(grunt) {
                     mangle: false,
                     banner: '/*\n' +
                             '   <%=pkg.name%> v<%=pkg.version%>\n' +
-                            '   Copyright 2015 Billie Ko\n' +
-                            '   License: MIT\n' +
+                            '   Author: Billie Ko<bmkrocks@gmail.com>\n' +
                             '   */\n'
                 },
                 files: {
